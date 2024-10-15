@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2sp"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="405dp"
+        android:layout_height="220dp"
+        android:background="@color/purple_200"
+        android:backgroundTint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="166dp"
+                android:layout_height="191dp"
+                android:src="@drawable/johndoe"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+   <TextView
+        android:id="@+id/nameView"
+        android:layout_width="410dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="#B2D2DC"
+        android:fontFamily="sans-serif-black"
+        android:text="John Doe"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2" />
+
+    <TextView
+        android:id="@+id/aboutJohn"
+        android:layout_width="366dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="16dp"
+        android:padding="2dp"
+        android:text="@string/about_john"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameView" />
+
+    <TextView
+        android:id="@+id/skillsView"
+        android:layout_width="410dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="#E1E9FC"
+        android:fontFamily="sans-serif-black"
+        android:text="My Skills"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutJohn" />
+
+    <TextView
+        android:id="@+id/johnSkillsWeb"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/john_skills_web"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skillsView" />
+
+    <TextView
+        android:id="@+id/johnSkillsAnd"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
+        android:text="@string/john_skills_and"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/johnSkillsWeb" />
+
+    <TextView
+        android:id="@+id/johnSkillsMl"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
+        android:text="@string/john_skills_ml"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/johnSkillsAnd" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
