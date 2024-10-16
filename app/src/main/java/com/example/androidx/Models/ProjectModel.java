@@ -1,16 +1,24 @@
 package com.example.androidx.Models;
 
 public class ProjectModel {
-    String img;
+    int img;
+
+    public ProjectModel(int img, String title, String desc, String link) {
+        this.img = img;
+        this.title = title;
+        this.desc = desc;
+        this.link = link;
+    }
+
     String title;
     String desc;
     String link;
 
-    public String getImg() {
+    public int getImg() {
         return img;
     }
 
-    public void setImg(String img) {
+    public void setImg(int img) {
         this.img = img;
     }
 
