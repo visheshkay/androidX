@@ -16,21 +16,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView xmlns:tools="http://schemas.android.com/tools"
+    <TextView
         android:id="@+id/title_project_card"
-        android:layout_width="271dp"
-        android:layout_height="40dp"
+        android:layout_width="243dp"
+        android:layout_height="31dp"
+        android:paddingTop="10px"
         android:textAlignment="center"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:paddingTop="10px"
         tools:text="Title" />
 
     <TextView
         android:id="@+id/desc_project_card"
-        android:layout_width="268dp"
-        android:layout_height="wrap_content"
+        android:layout_width="246dp"
+        android:layout_height="67dp"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_project_card"
@@ -38,10 +38,11 @@
 
     <TextView
         android:id="@+id/link_project_card"
-        android:layout_width="270dp"
-        android:layout_height="26dp"
+        android:layout_width="243dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="12dp"
         android:autoLink="web"
-        android:textColorLink="#00178D"
+        android:textColorLink="@color/textColorLink"
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/desc_project_card"
