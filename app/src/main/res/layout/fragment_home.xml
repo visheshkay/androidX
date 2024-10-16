@@ -119,19 +119,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/johnSkillsAnd" />
 
-        <TextView
-            android:id="@+id/skillsView3"
-            android:layout_width="410dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="856dp"
-            android:background="#E1E9FC"
-            android:fontFamily="sans-serif-black"
-            android:text="My Skills"
-            android:textAlignment="center"
-            android:textSize="35sp"
-            app:layout_constraintEnd_toEndOf="@id/johnSkillsMl"
-            app:layout_constraintTop_toTopOf="parent" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
